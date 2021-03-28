@@ -123,8 +123,9 @@ Another ethical issue that IT professionals experience is intellectual property,
 
 **Legal Information**
 
-The US lacks comprehensive laws on data privacy. However, it has The Federal Trade Commission Act (15 USC § 41 et seq.) which is used to issue regulations and implement data privacy laws. This Data Protection Act is slow in keeping up with the rapid development in technology. The fines and penalties are not enough in helping a professional act in an ethical way. Additionally, the laws are not uniform intentionally and thus resulting in cross-border issues. 
-The 1976's Copyright Law in the USA protects computer programs. However, the law does not define fair use and violation. Thus, it fails in guiding a developer to act ethically. Currently, most companies depend on income from copyright-protected work; thus, enforcing the law is quite a challenge.
+While the UK falls under the EU's General Data Protection Regulation (GDPR), it also implemented its legislation for data privacy in 2018 called the Data Protection Act (DPA). While similar in language and most requirements, the DPA does have additional use cases that span into areas like immigration, data relating to public interests, and criminal convictions, such areas that GDPR does not cover.
+
+While it's challenging for a company to adhere to data handling and processing guidelines, both the GDPR and DPA have specific requirements that outline how to do so legally and ethically. The benefit for a developer in the UK is that they have access to these guidelines for the EU as a whole and the UK. An issue with these acts however is the potential misinterpretation of what's required by a company, and what's required by an individual developer and so it's important for companies to provide the most up to date training on data handling specific to development practices to adhere to GDPR and DPA guidelines.
 
 
 
@@ -141,9 +142,10 @@ The company should have ensured that its customers' data is safe from any unauth
 As for any company that handles sensitive customer information, EE's management should organize training and awareness programs to educate all their employees on the company's data handling process' and procedures and further educate them on accessing customers' personal information. The company should adhere to the data protection guidelines to prevent a repeat of the data breach. Additionally, the company should have additional vetting guidelines to ensure that only the owner of the sim card requests a sim replacement and disallow third-party requests. Finally, the company should provide a customer response channel to any data breach claims to ensures that the customers are informed promptly given a data breach, and an investigation is carried out to prevent any further damage.
 
 
-Ohlhausen, Maureen K. "Privacy challenges and opportunities: The role of the Federal Trade Commission." Journal of Public Policy & Marketing 33.1 (2014)
+
 
 National Research Council. Improving access to and confidentiality of research data: Report of a workshop. “National Academies Press,” 2000.
+
 Reed, Jim. EE data breach ‘led to stalking’. BBC News. 8 February 2019. https://www.bbc.com/news/technology-46896329.
 
 Ayo, Samuel Cris. "Data Breach e-Crime, A Case Study and Legal Analysis.",2019
@@ -152,13 +154,14 @@ ACM, Computing Machinery. "ACM code of ethics and professional conduct." Code of
 
 Habermann, Hermann. "Ethics, confidentiality, and data dissemination." Journal of Official Statistics 22.4, 2006
 
-Posner, Richard A. "The federal trade commission." The University of Chicago Law Review 37.1, 1969
+
+https://mobidev.biz/blog/gdpr-compliant-software-development-guide
 
 # 
 
 # Q8: Explain control flow, using an example from the Ruby programming language.
 
-A control flow is a sequence in which code on a script is executed. Control flow allows the programmer to tell the program which code should be executed based on certain conditions. Control flow is essential in Ruby, and it uses the basic conditional forms of if, else, and elsif statements. In if statements, the code the will be read and executed by the computer is the one following the if statement is true. Thus, if the evaluation results to true, the code will be executed to the end.
+Control flow is the sequence in which code on a script is executed. Control flow allows the programmer to tell the program which code should be executed based on certain conditions. Control flow is essential in Ruby, and it uses the basic conditional forms of if, else, and elsif statements. In if statements, the code the will be read and executed by the computer is the one following the if statement is true. Thus, if the evaluation results to true, the code will be executed to the end.
 
 For example
 
@@ -186,7 +189,7 @@ Flanagan, David, and Yukihiro Matsumoto. The Ruby Programming Language: Everyth
 
 **Type Coercion**
 
-Type coercion is the process of automatically transforming an object from one type of data to another one. This could be from a number to a string or from object to Boolean. Type coercion often occurs when data is stored in a different data type from the one needed by its setting. Any data type can go through type coercion, and it can either be implicit or explicit coercion and is extensible. For example, type coercion is when "7", a string is converted to an integer, 7, or transformed to a double, 7.0.
+Type coercion is the process of transforming an object from one type of data to another one. This could be from a number to a string or from object to Boolean. Type coercion often occurs when data is stored in a different data type from the one needed by its setting. Any data type can go through type coercion, and it can either be implicit or explicit coercion and is extensible. For example, type coercion is when "7", a string is converted to an integer, 7, or transformed to a double, 7.0.
 
 Pierce, Benjamin C., and C. Benjamin. Types and programming languages. MIT press, 2002.
 
@@ -207,8 +210,6 @@ Number types can refer to both integers and floats (floating-point). Integers re
 33.33.class = float
 ```
 
-
-
 **String** 
 
 Strings are used to represent text or alphanumeric characters such as Billy, Caroline45 and are defined by wrapping text in single ('') or double (""(""("") quotes.
@@ -216,7 +217,6 @@ Strings are used to represent text or alphanumeric characters such as Billy, Car
 ```
 "Hello, my name is Jordan".class = string
 ```
-
 
 **Boolean**
 
@@ -226,7 +226,6 @@ Boolean data types are either true or false
 true = TrueClass
 false = FalseClass
 ```
-
 
 **Arrays**
 
@@ -239,7 +238,6 @@ puts array[1]
 Expected output: `Jordan`
 
 
-
 **Hashes**
 
 Hashes or objects as it is sometimes reffered to in different languages, store data in Key/Value pairs. Each key pair is seperated by a comma (,) and is encased in a curly bracket ({}). You can also access the key or value in a hash, but using a different syntax than arrays.
@@ -250,7 +248,6 @@ hash = {"Jordan":true, "Age": 33}
 puts hash[:"Jordan"]
 ```
 Expected output: `true`
-
 
 
 **Symbol**
@@ -288,11 +285,11 @@ Bhat, Miti S., et al. "Data structure based performance evaluation of emerging t
 
 **WaitStaff**
 
-This class includes information on the waiters and waitresses and which zones they’re assigned to in the restaurant.
+This class includes information on the wait staff and which zones they’re assigned to in the restaurant.
 
 **Menu Class**
 
-Menu will contain a list of dishes with corresponding information about the dish like: price, nutritional values (Calories etc), ingredients, allergen warnings. This will also updated the customer if anything is unavailable or out of stock and approx. how long a dish takes to cook.
+Menu will contain a list of dishes with corresponding information about the dish, such as price, nutritional values (Calories, etc), ingredients, allergen warnings. This will also update the customer if anything is unavailable or out of stock and the approximate wait time.
 
 
 **Customer Class**
@@ -302,23 +299,23 @@ Customer will include information about the location of the customer in the rest
 
 **FoodRequest**
 
-This class will contain food objects to inform the Chef on any food requests including which dishes are ordered from Menu. As well as special requests like removing an ingredient, add ons like extra sauce and or how the Customer would like their steak cooked. 
+Contain food objects to inform the Chef of any dish requests including which dishes are ordered from Menu. As well as special requests like removing an ingredient, add ons such as extra sauce, and or how the Customer would like their food cooked. 
 
 **OrderTaker**
 
-This class will take the customers order, save the order, total the order amount, send the order to the Chef and save the total amount for when the customer wants to pay.
+Take the customer's order, save the order, total the order amount, send the order to the Chef, return the approximate wait time, and save the total for the bill.
 
 **Chef**
 
-This class will take the objects from Menu and Food and make the food according to the inputs and requirements from those classes. It will return completed dishes for wait staff to deliver.
+Chef takes the objects from Menu and Food and makes the food according to the inputs and requirements from those classes. It will return completed dishes for wait staff to deliver.
 
 **FoodDelivery**
 
-This class assigns completed dishes to wait staff when food is cooked based on the return value from Chef.
+Assigns completed dishes to wait staff when food is cooked based on the return value from Chef.
 
 **Payment**
 
-In order for the customer to pay we need to total the bill, choose a payment method, process the electronic payment or receive cash and return the correct change.
+Choose a payment method, process the electronic payment, or receive cash and return the correct change.
 
 
 # 
