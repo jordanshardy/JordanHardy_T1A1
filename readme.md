@@ -13,7 +13,7 @@
 
 **5. 1995** - Long before Zoom, VocalTec, an Israeli telecom company released an application/program that is regarded as the first commercial VoIP for desktop computers. Given the current global environment and our reliance on VoIP’s, this invention set the stage for global growth in telecommunications.
 
-**6. 2004** - Facebook was launched. Although preceded by other social platforms like Friendster and MySpace, Facebook was able to grow at enormous rates and eventually monopolize the social network space. They were able to achieve this largely by constantly adding new features. At the height of the reign, other social platforms were stagnant in their adaptation of features for new users. Facebook was able to capitalize on its growth and constantly provide an engaging experience for its user base irrespective of demographic, location, or psychographic circumstance.
+**6. 2004** - Facebook was launched. Although preceded by other social platforms like Friendster and MySpace, Facebook was able to grow at enormous rates and eventually monopolize the social network space. They were able to achieve this largely with consistent feature updates. At the height of their reign, other social platforms were stagnant in their adaptation of features for new users. Facebook was able to capitalize on its growth and consitently provide an engaging experience for its user base irrespective of demographic, location, or psychographic circumstance.
 
 
 http://www.faqs.org/rfcs/rfc920.html
