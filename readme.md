@@ -73,6 +73,8 @@ A data structure is a detailed way in which data is organized and accessed. Ther
 
 **Stacks** -  In this data structure, objects are placed on top of one another, and only the object on the top can be removed. It is useful because it provides a regular loop. Similarly, one can easily track the pending tasks like in a to-do list app, with the most recent one being at the top.
 
+Günther, Sebastian, and Sagar Sunkle. "rbFeatures: Feature-oriented programming with Ruby." Science of Computer Programming 77.3 (2012): 152-173.
+
 # 
 
 # Q5: Describe the features of interpreters and compilers and how they are different.
