@@ -40,7 +40,9 @@ https://www.salon.com/2014/03/14/25_biggest_moments_in_internet_history_partner/
 
 
 https://computer.howstuffworks.com/question525.htm
+
 https://www.avast.com/c-ipv4-vs-ipv6-addresses
+
 https://www.bam.com.au/blog/domain-names-and-dns/
 
 # 
@@ -57,6 +59,7 @@ https://www.bam.com.au/blog/domain-names-and-dns/
 **Web Browsers** - Like TCP and HTTP web browsers are part of layered network models that enable users to request information from an IP. IP addresses however are hard to remember and so browsers use a system called domain mapping to request information from a server. This server hosts data or information and maps the route to which the information is needing to be sent. When a browser makes a request using HTTP. Once this request is established and the server receives the request, the server responds to the domain or IP and sends the requested information. After the information has been received the browser renders the information to the client.
 
 https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.3.0/com.ibm.cics.ts.internet.doc/topics/dfhtl_conintro.html
+
 https://developpaper.com/the-connection-and-difference-between-http-tcp-and-udp-socket-and-websocket/
 
 # 
@@ -84,8 +87,9 @@ Günther, Sebastian, and Sagar Sunkle. "rbFeatures: Feature-oriented programming
 **Interpreter** - On the other hand, an interpreter converts high-level language into machine code. However, the conversion is done when the program is running and is based on Interpretation Method. It is found in the memory and supports Dynamic Typing. It is made up of the Lexical Analyzer Syntax Analyzer and the Semantic Analyzer Stage. The program statements are converted one at a time. Thus the codes operate at reduced speed compared to the compiled code. With the interpreter, the errors of each line are displayed after each code statement. Thus, the error has to be corrected before one can move to the following statement code. Interpreters are easy to use and can be easily understood by beginners, and suitable for program and development. It is commonly used in PHP, Ruby and Perl languages.
 
 
-Kennedy, Ken. "Languages, compilers, and run-time systems." The Grid 2. Morgan Kaufmann, 2004. 491-512.
-Cazzola, Walter, and Albert Shaqiri. "Open programming language interpreters." arXiv preprint arXiv:1703.10873 (2017).
+Kennedy, Ken. "Languages, compilers, and run-time systems." The Grid 2. Morgan Kaufmann, 2004. 
+
+Cazzola, Walter, and Albert Shaqiri. "Open programming language interpreters.", 2017.
 
 # 
 
@@ -99,7 +103,8 @@ However, Java is not suitable for the cloud platform, while most business applic
 **C** -  C is commonly used in game programming. C is preferred to C++ because it lacks the extra packing. Likewise, its programs are slightly faster and smaller. It provides low-range entry to memory with a very minimal run-time. C is also common because even with its low-level capabilities, the languages allows cross-platform coding. Any program written in C language can be used in different operating systems as long as it is portable. It only requires minimal changes to the source code. The language is readily available on several computers. C is commonly used in hardware programming, especially in automobiles and medicals equipment, as it can run on any device 
 It can also be quickly learnt, and it acts as a stepping stone to other programming languages such as Python and PHP. It can extend itself and easily be debugged, tested and maintained. However, it cannot be used with another object-oriented programming such as polymorphism because it one of the older programming languages. Thus it not suitable for mobile applications and websites. It lacks data security, and the source code cannot be reused. Additionally, its syntax is quite complex.
 
-Gupta, Diwaker. "What is a good first programming language?" Crossroads, 10.4 (2004): 7-7.
+Gupta, Diwaker. "What is a good first programming language?" Crossroads, 10.4, 2004.
+
 Sebesta, Robert W. Concepts of programming languages. Boston: Pearson, 2012.
 
 
@@ -136,13 +141,18 @@ The company should have ensured that its customers' data is safe from any unauth
 As for any company that handles sensitive customer information, EE's management should organize training and awareness programs to educate all their employees on the company's data handling process' and procedures and further educate them on accessing customers' personal information. The company should adhere to the data protection guidelines to prevent a repeat of the data breach. Additionally, the company should have additional vetting guidelines to ensure that only the owner of the sim card requests a sim replacement and disallow third-party requests. Finally, the company should provide a customer response channel to any data breach claims to ensures that the customers are informed promptly given a data breach, and an investigation is carried out to prevent any further damage.
 
 
-Ohlhausen, Maureen K. "Privacy challenges and opportunities: The role of the Federal Trade Commission." Journal of Public Policy & Marketing 33.1 (2014): 4-9.
+Ohlhausen, Maureen K. "Privacy challenges and opportunities: The role of the Federal Trade Commission." Journal of Public Policy & Marketing 33.1 (2014)
+
 National Research Council. Improving access to and confidentiality of research data: Report of a workshop. “National Academies Press,” 2000.
-Reed, Jim. EE data breach ‘led to stalking’. BBC News. 8 February 2019. https://www.bbc.com/news/technology-46896329. Accessed 28 March 2021.
-Ayo, Samuel Cris. "Data Breach e-Crime, A Case Study and Legal Analysis." arXiv preprint arXiv:1905.12472 (2019).
-ACM, Computing Machinery. "ACM code of ethics and professional conduct." Code of Ethics (1992). 
-Habermann, Hermann. "Ethics, confidentiality, and data dissemination." Journal of Official Statistics 22.4 (2006): 599. 
-Posner, Richard A. "The federal trade commission." The University of Chicago Law Review 37.1 (1969): 47-89.
+Reed, Jim. EE data breach ‘led to stalking’. BBC News. 8 February 2019. https://www.bbc.com/news/technology-46896329.
+
+Ayo, Samuel Cris. "Data Breach e-Crime, A Case Study and Legal Analysis.",2019
+
+ACM, Computing Machinery. "ACM code of ethics and professional conduct." Code of Ethics, 1992. 
+
+Habermann, Hermann. "Ethics, confidentiality, and data dissemination." Journal of Official Statistics 22.4, 2006
+
+Posner, Richard A. "The federal trade commission." The University of Chicago Law Review 37.1, 1969
 
 # 
 
